@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- icon link -->
+  <link rel="shortcut icon" type="x-icon" href="images/logo.png">
+  <!-- css linking -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+  <title>BMI Calculator</title>
+</head>
+<body>
+<!-- Header -->
+<div class="header">
+<div class="container">
+  <header>
+    <div class="logo">
+    <img src="images/logo.png" alt="">
+    </div>
+    <div class="lst">
+      <ul>
+        <li>Sign in <i class="fa-solid fa-right-to-bracket"></i></li>
+        <li>About Us <i class="fa-solid fa-bars"></i></li>
+        <li>Contact Us <i class="fa-solid fa-phone"></i></li>
+      </ul>
+    </div>
+  </div>
+</header>
+</div>
+<!-- End Header -->
+<!-- Content -->
+  <div class="first_section">
+  <div class="container">
+    <div class="grid">
+    <div class="text">
+    <h2>What Is BMI ?</h2>
+    
+    <p>Body mass index is a value derived from the mass and height of a person. The BMI is defined as the body mass divided by the square of the body height, and is expressed in units of kg/m², resulting from mass in kilograms and height in metres.</p>
+    
+    <P>The BMI calculation divides an adult's weight in kilograms by their height in metres squared. For example, A BMI of 25 means 25kg/m2.</P>
+    </div>
+    <img src="images/content.png" alt="">
+  </div>
+  </div>
+  </div>
+  <!-- End First Section -->
+  
+  <!-- Second Section -->
+  <div class="second_section">
+  <div class="container">
+    <div class="grid">
+    <img src="images/accuracy.png" alt="">
+      <div class="text">
+        <h2>Accuracy of BMI</h2>
+        
+        <p>BMI takes into account natural variations in body shape, giving a healthy weight range for a particular height.</p>
+        <p>As well as measuring your BMI, healthcare professionals may take other factors into account when assessing if you're a healthy weight.</p>
+        <p>Muscle is much denser than fat, so very muscular people, such as heavyweight boxers, weight trainers and athletes, may be a healthy weight even though their BMI is classed as obese.</p>
+        <p>Your ethnic group can also affect your risk of some health conditions. For example, adults of South Asian origin may have a higher risk of some health problems, such as diabetes, with a BMI of 23, which is usually considered healthy.</p>
+        <p>You should not use BMI as a measure if you're pregnant. Get advice from your midwife or GP if you're concerned about your weight.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- End Second Section -->
+  <!-- Start Calculator -->
+  <div class="calculator">
+    <div class="container">
+    <div class="grid">
+    <div class="calc_form">
+      <h2>BMI Calculator</h2>
+      <form action="">
+      <label for="age">Age:</label>
+        <input type="number" required name="age">
+        <label for="radio_div">gender:</label>
+        <div class="radio_div">
+          <label for="Male">Male</label>
+          <input type="radio"id="Male" name="gender">
+          <label for="Female">Female</label>
+          <input type="radio" id="Female"name="gender">
+        </div>
+        <label for="height">height:</label>
+        <input type="number" name="height" placeholder="cm">
+        <label for="weight">weight:</label>
+        <input type="number" name="weight" placeholder="kg">
+        <input type="reset" class="calc_btn">
+      </form>
+        <button class="calc_btn result_btn">Calculate</button>
+    </div>
+    <div class="result">
+      <h2>Your BMI Is :</h2>
+      <span class="bmi"></span>   
+      <div class="title"></div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="footer">
+  <div class="container">
+  <footer>
+      <div class="logo">
+        <img src="images/logo.png" alt="">
+        <h2>BMI Calculator</h2>
+        </div>
+        <div class="credit">
+          <p>Made With <span class="heart">&hearts;</span> By <a target="_blank" href="https://www.linkedin.com/in/moamen-zyan-1a5b6624b/">Moamen Zyan</a></p>
+          <p>Copyright &copy; 2023 All Rights Reserved.</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- script linking & icons -->
+  <script src="https://kit.fontawesome.com/3a25f6e842.js" crossorigin="anonymous"></script>
+  <script src="JS/main.js"></script>
+</body>
+</html>
